@@ -56,7 +56,10 @@ status-bar
 ```
 
 # Lemon Leak with Status Bars
+
+## Introduction @unplugged
 Lets make our lemon leak game have status bars now!
+
 ## Step 1
 
 ## Step 2
