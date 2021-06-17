@@ -9,7 +9,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tutorial_1.md"
     ],
     "testFiles": [
         "test.ts"
