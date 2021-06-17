@@ -5,6 +5,7 @@
         "device": "*"
     },
     "files": [
+        "tutorial_1.md",
         "main.blocks",
         "main.ts",
         "README.md",
