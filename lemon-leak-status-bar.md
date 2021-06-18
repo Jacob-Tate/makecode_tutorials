@@ -7,8 +7,11 @@
 Lets make our lemon leak game have status bars now!
 
 ## Step 1
-
 This is a test
+
+```package
+pxt-status-bar=github:jwunderl/pxt-status-bar#v0.4.1
+```
 
 ## Step 2
 
@@ -73,8 +76,4 @@ game.onUpdateInterval(1000, function () {
         . c c c c c c c . . . . . . . . 
         `, randint(-50, 50), randint(-50, 50))
 })
-```
-
-```package
-pxt-status-bar=github:jwunderl/pxt-status-bar#v0.4.1
 ```
