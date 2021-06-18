@@ -1,5 +1,5 @@
  
-
+http://arcade.makecode.com/#tutorial:https://github.com/Jacob-Tate/makecode_tutorials/lemon-leak-status-bar
 
 > Open this page at [https://jacob-tate.github.io/makecode_tutorials/](https://jacob-tate.github.io/makecode_tutorials/)
 

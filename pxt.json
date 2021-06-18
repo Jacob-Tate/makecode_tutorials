@@ -1,15 +1,13 @@
 {
-    "name": "test",
+    "name": "Arcade MakeCode Tutorials",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json",
         "lemon-leak-status-bar.md"
     ],
     "testFiles": [
