@@ -1,3 +1,27 @@
+### @activities true
+
+# Lemon Leak with Status Bars
+
+## Introduction @unplugged
+
+Lets make our lemon leak game have status bars now!
+
+## Step 1
+
+This is a test
+
+## Step 2
+
+This is a test
+
+## Step 3
+
+This is also a test
+
+## Finish
+
+Test complete
+
 ```template
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
     sprite.startEffect(effects.spray, 200)
@@ -50,21 +74,6 @@ game.onUpdateInterval(1000, function () {
         `, randint(-50, 50), randint(-50, 50))
 })
 ```
-
-
-
-# Lemon Leak with Status Bars
-
-## Introduction @unplugged
-Lets make our lemon leak game have status bars now!
-
-## Step 1
-
-## Step 2
-
-## Step 3
-
-## Finish
 
 ```package
 pxt-status-bar=github:jwunderl/pxt-status-bar#v0.4.1
