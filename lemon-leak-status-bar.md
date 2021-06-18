@@ -47,7 +47,7 @@ let statusbar = statusbars.create(20, 4, StatusBarKind.Health)
 
 ## Step Two - Attach status bar to lemon
 
-If you try to play the game now youll notice that the health bar is smack in the middle of our lemon and thats no good!
+If you try to play the game now you'll notice that the health bar is smack in the middle of our lemon and thats no good!
 <hr/>
 Go back into the ``||statusbars: Status Bar||`` category and grab ``||statusbars: attach [statusbar] to [mysprite]||`` placing it at the bottom of our ``||loops: on start||`` container.
 
@@ -162,11 +162,11 @@ statusbar.setLabel("HP")
 ## Step Five - Reduce Health on Hit
 When we play the game we have a nice health bar now but we have a problem.
 
-The HP doesnt go down when we are hit!
+The HP doesn't go down when we are hit!
 
 <hr/>
 
-Go down to the ``||sprites: on sprite||`` container and remove the ``||Info: Change score by [1]||`` block
+Go down to the ``||sprites: on sprite overlap||`` container and remove the ``||Info: Change score by [1]||`` block
 
 Go back to the ``||statusbars: Status Bars||`` tab and drag the ``||statusbars: change [statusbar] [value] by [0]||``
 
