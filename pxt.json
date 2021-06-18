@@ -4,7 +4,9 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "darts": "*",
+        "sevenseg": "*"
     },
     "files": [
         "main.ts",
