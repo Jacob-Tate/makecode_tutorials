@@ -10,7 +10,7 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "tutorial_1.md"
+        "lemon-leak-status-bar.md"
     ],
     "testFiles": [
         "test.ts"
