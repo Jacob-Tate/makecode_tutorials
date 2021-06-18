@@ -8,7 +8,8 @@
     "files": [
         "main.ts",
         "README.md",
-        "lemon-leak-status-bar.md"
+        "lemon-leak-status-bar.md",
+        "tutorial_1.md"
     ],
     "testFiles": [
         "test.ts"
