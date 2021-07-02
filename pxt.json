@@ -13,7 +13,10 @@
         "README.md",
         "lemon-leak-status-bar.md",
         "tutorial_1.md",
-        "tutorial-info-cache.json"
+        "tutorial-info-cache.json",
+        "dino-part-1.md",
+        "dino-part-2.md",
+        "dino-part-3.md"
     ],
     "testFiles": [
         "test.ts"
