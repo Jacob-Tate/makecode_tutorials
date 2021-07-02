@@ -5,6 +5,7 @@
 ```package
 color-coded-tilemap
 animation
+TomatoCube Arcade Sprites=github:tomatocube18/tomatocube-arcade-sprites#a8a6a06b17616f23698a4e3d73ae086e6596dac5
 ```
 
 ## Step 1
@@ -949,7 +950,7 @@ Test out your game. If it does not work, cross check your code with the one in t
 
 ### ~ tutorialhint
 ```blocks
-    let dino: Sprite = sprites.create(img`
+    let dino: = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . f f f f f f f f . . 
         . . . . 4 f 7 7 7 7 7 7 7 7 f . 
