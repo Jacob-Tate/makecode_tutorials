@@ -2,6 +2,11 @@
  
 # tutorial
 
+```package
+color-coded-tilemap
+animation
+```
+
 ## Step 1
 1. Open the ``||sprites.Sprites||`` drawer, drag the  ``||variables.set mySprite||`` block into the ``||Loops:on start||``  block. 
 2. Click on the grey color oval, select **Gallery** view. Scroll to find the image of a dinosaur, select it and hit "OK". 
@@ -407,7 +412,7 @@ projectile.lifespan = 3000
 
 ### ~ tutorialhint
 ```blocks
-    dino = sprites.create(img`
+    let dino: Sprite = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . f f f f f f f f . . 
         . . . . 4 f 7 7 7 7 7 7 7 7 f . 
@@ -527,11 +532,8 @@ projectile.lifespan = 3000
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, false)    
-dino.x = 0
-<pre><code class="lang-block">let mySprite: Sprite = null
-
-mySprite.x = 0</code></pre>
-    dino.set(ay,290)
+    dino.x = 0
+    dino.ay = 290
 ```    
 
 ## Step 8
@@ -542,7 +544,7 @@ mySprite.x = 0</code></pre>
 
 ### ~ tutorialhint
 ```blocks
-    dino = sprites.create(img`
+    let dino: Sprite = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . f f f f f f f f . . 
         . . . . 4 f 7 7 7 7 7 7 7 7 f . 
@@ -673,7 +675,7 @@ mySprite.x = 0</code></pre>
 
 ### ~ tutorialhint
 ```blocks
-    dino = sprites.create(img`
+    let dino: Sprite = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . f f f f f f f f . . 
         . . . . 4 f 7 7 7 7 7 7 7 7 f . 
@@ -808,6 +810,7 @@ mySprite.x = 0</code></pre>
 
 ### ~ tutorialhint
 ```blocks
+let dino:Sprite = null
 
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         dino.vy = -140
@@ -826,13 +829,13 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ### ~ tutorialhint
 ```blocks
+let dino:Sprite = null
 
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (dino.isHittingTile(CollisionDirection.Bottom)) {
-        dino.vy = -140
+    	dino.vy = -140
     }
 })
-
 ```
 
 ## Step 12
@@ -877,7 +880,7 @@ scene.onHitTile(SpriteKind.Player, 2, function (sprite) {
 
 ### ~ tutorialhint
 ```blocks
-
+let dino:Sprite = null
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     dino.setImage(img`
         . . . . . . . . . . . . . . . . 
@@ -913,6 +916,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ### ~ tutorialhint
 ```blocks
+let dino:Sprite = null
 
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     dino.setImage(img`
@@ -945,7 +949,7 @@ Test out your game. If it does not work, cross check your code with the one in t
 
 ### ~ tutorialhint
 ```blocks
-    dino = sprites.create(img`
+    let dino: Sprite = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . f f f f f f f f . . 
         . . . . 4 f 7 7 7 7 7 7 7 7 f . 
