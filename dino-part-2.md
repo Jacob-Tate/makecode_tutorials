@@ -2,13 +2,20 @@
  
 # tutorial
 
+
+```package
+color-coded-tilemap
+animation
+TomatoCube Arcade Sprites=github:tomatocube18/tomatocube-arcade-sprites#a8a6a06b17616f23698a4e3d73ae086e6596dac5
+```
+
 ## Step 1
 
 **Step 1**
 1. Click on the **Advanced** arrow to expand more category
 2. Open the ``||scene.Functions||`` drawer, click on **Make a Function...**
 3. Rename **doSomething** to **create_map** 
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_2.png)
+![screenshots](https://raw.githubusercontent.com/Jacob-Tate/makecode_tutorials/master/assets/dino-game/dino-game-1.png)
 
 
 
@@ -18,7 +25,6 @@ function create_map () {
 }
 
 ```
-
 ```ghost
 
 let projectile: Sprite = null
@@ -391,7 +397,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 ## Step 2
 **Step 2**
 1. Repeat the same step, create another function call **create_dino**
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_1.png)
+![screenshots](https://raw.githubusercontent.com/Jacob-Tate/makecode_tutorials/master/assets/dino-game/dino-game-2.png)
 
 ### ~ tutorialhint
 ```blocks
@@ -408,7 +414,7 @@ function create_dino () {
 1. Drag the blocks from ``||Loops:on start||`` block to the two function blocks respectively. Check out the result at Tutorial Hint.
 
 ### ~ tutorialhint
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/screenshot_15.png)
+![screenshots](https://raw.githubusercontent.com/Jacob-Tate/makecode_tutorials/master/assets/dino-game/dino-game-3.png)
 
 
 
@@ -417,15 +423,12 @@ function create_dino () {
 1. Open the ``||scene.Functions||`` drawer, drag the ``||scene.create_map||`` into the ``||Loops:on start||`` block.
 3. Next, drag the ``||scene.create_dino||`` into the ``||Loops:on start||`` block.
 
-**Testing**: Test out your game, it should work the same as last week.
-### ~ tutorialhint
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_12.png)
-
+**Testing**: Test out your game, it should work the same as last time.
 
 ## Step 5
 ** Step 5**
-1. Click on the tilemap that you have created last week. Let's add Yellow tile to it it.
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_4.gif)
+1. Click on the tilemap that you have created last time. Let's add Yellow tile to it it.
+![screenshots](https://raw.githubusercontent.com/Jacob-Tate/makecode_tutorials/master/assets/dino-game/dino-game-4.png)
 
 ### ~ tutorialhint
 ```blocks
@@ -579,7 +582,7 @@ function create_map () {
 1. Open the ``||scene.Functions||`` drawer, click on **Make a Function...**
 3. Rename **doSomething** to **create_eggs** 
 4. Open the ``||scene.Functions||`` drawer, drag the ``||scene.create_eggs||`` into the ``||Loops:on start||`` block.
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_6.png)
+![screenshots](https://raw.githubusercontent.com/Jacob-Tate/makecode_tutorials/master/assets/dino-game/dino-game-5.png)
 
 ### ~ tutorialhint
 ```blocks
@@ -747,7 +750,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 ** Step 12**
 1. Open the ``||sprites.Sprites||`` drawer, drag the  ``||sprites.destroy mySprite||`` into the ``||sprites.on sprite of kind Player overlap||`` block.
 2. Drag the **otherSprite** from  ``||sprites.on sprite of kind Player overlap||`` block onto the **mySprite** 
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_5.gif)
 
 
 ### ~ tutorialhint
@@ -778,7 +780,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 1. Open the ``||animation.Animation||`` drawer, drag the ``||variables.set anim to create animation of Walking||`` block into the ``||scene.create_stand_animation||`` block
 2. Click on **anim**, rename **anim** to **anim_stand_right** 
 3. Click on **Walking**, add a new action **standing_right**
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_10.gif)
 
 ## Step 15
 ** Step 15**
@@ -786,7 +787,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 2. Change **anim** to **anim_stand_right** 
 3. Click on the grey color ovul, select **Gallery** view. Scroll to find the below image of a standing right dino, select it and hit "OK". 
 4. Repeat step 1 - 3, for the other standing right dino.
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_10.png)
 
 ### ~ tutorialhint
 ```blocks
@@ -838,7 +838,6 @@ function create_stand_animation () {
 1. Open the ``||animation.Animation||`` drawer, drag the ``||variables.set anim to create animation of Walking||`` block into the ``||scene.create_stand_animation||`` block
 2. Click on **anim**, rename **anim** to **anim_stand_left** 
 3. Click on **Walking**, add a new action **standing_left**
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_11.gif)
 
 
 ## Step 17
@@ -847,7 +846,6 @@ function create_stand_animation () {
 2. Change **anim** to **anim_stand_left** 
 3. Click on the grey color ovul, select **Gallery** view. Scroll to find the first image of a standing left dino, select it and hit "OK". 
 4. Repeat step 1 - 3, for the other standing left dino.
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_11.png)
 
 ### ~ tutorialhint
 ```blocks
@@ -925,6 +923,16 @@ animation.attachAnimation(dino, anim_stand_left)
 
 ### ~ tutorialhint
 ```blocks
+enum ActionKind {
+    walking_right,
+    walking_left,
+    Walking,
+    Idle,
+    Jumping,
+    standing_right,
+    standing_left
+}
+
 controller.right.onEvent(ControllerButtonEvent.Released, function () {
     animation.setAction(dino, ActionKind.standing_right)
 })
@@ -943,6 +951,15 @@ controller.left.onEvent(ControllerButtonEvent.Released, function () {
 
 ### ~ tutorialhint
 ```blocks
+enum ActionKind {
+    walking_right,
+    walking_left,
+    Walking,
+    Idle,
+    Jumping,
+    standing_right,
+    standing_left
+}
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.setAction(dino, ActionKind.walking_right)
 })
@@ -962,21 +979,11 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 3. Change **mySprite** to **dino** 
 
 
-
-### ~ tutorialhint
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/Screenshot_16.png)
-
-
-
-
-## Step 22 @unplugged
+## Step 22
 ** Step 22**
 Congratulations! You have completed today's tutorial. 
-Test out your game. If it does not work, cross check your code with the below image.
+Test out your game. If it does not work, cross check your code with the hint image.
 
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/complete01a.png)
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/complete02a.png)
-![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-2-of-3/master/assets/complete03a.png)
 
 ### ~ tutorialhint
 ```blocks
