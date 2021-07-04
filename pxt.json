@@ -9,7 +9,7 @@
         "sevenseg": "*",
         "color-coded-tilemap": "*",
         "animation": "*",
-        "TomatoCube Arcade Sprites": "github:Jacob-Tate/tomatocube-arcade-sprites#c22c51a5e1c5733c5662a1600e466b1a4ef1bdb6"
+        "TomatoCube Arcade Sprites": "github:Jacob-Tate/tomatocube-arcade-sprites#9228c8a59ec4958ebc77db654203d2ec2a9ecc44"
     },
     "files": [
         "main.ts",
