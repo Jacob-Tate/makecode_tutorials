@@ -4,8 +4,7 @@
 
 ```package
 color-coded-tilemap
-animation
-TomatoCube Arcade Sprites=github:tomatocube18/tomatocube-arcade-sprites#a8a6a06b17616f23698a4e3d73ae086e6596dac5
+sprites=github:tomatocube18/tomatocube-arcade-sprites#a8a6a06b17616f23698a4e3d73ae086e6596dac5
 ```
 
 ## Step 1
