@@ -1,8 +1,12 @@
  
 http://arcade.makecode.com/#tutorial:https://github.com/Jacob-Tate/makecode_tutorials/lemon-leak-status-bar
+
 http://arcade.makecode.com/#tutorial:https://github.com/Jacob-Tate/makecode_tutorials/dino-part-1
+
 http://arcade.makecode.com/#tutorial:https://github.com/Jacob-Tate/makecode_tutorials/dino-part-2
+
 http://arcade.makecode.com/#tutorial:https://github.com/Jacob-Tate/makecode_tutorials/dino-part-3
+
 > Open this page at [https://jacob-tate.github.io/makecode_tutorials/](https://jacob-tate.github.io/makecode_tutorials/)
 
 ## Use as Extension
