@@ -981,7 +981,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ## Step 22
 ** Step 22**
-Congratulations! You have completed today's tutorial. 
+Congratulations! You have completed this tutorial. 
 Test out your game. If it does not work, cross check your code with the hint image.
 
 
