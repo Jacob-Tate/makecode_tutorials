@@ -807,6 +807,9 @@ projectile.lifespan = 3000
 3. To mimick jumping, click on the **x** drop down menu, change **x** to **vy (velocity y))** 
 4. Change the value from **0** to **-140**
 
+<hr />
+
+*TIP: We use -140 as the negative implies that the player will go up twords the top of the screen and 140 just feels right!*
 
 ### ~ tutorialhint
 ```blocks
@@ -826,14 +829,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 2. Open the ``||scene.Scene||`` drawer, drag the  ``||scene.is sprite hitting wall left ||`` block onto the ``||logic:true||``  block.
 3. Change **mySprite** to **dino**
 4. Change **left** to **bottom**
-5. Open the ``||sprites.Sprites||`` drawer, drag the ``||sprites.set mySprite x to 0||`` block into the ``||logic.if true then||`` block.
-6. Change **mySprite** to **dino**
-7. Change **x** to **vy (velocity y)**
-8. Change **0** to **-140** (or whatever value feels right to you)
-
-<hr />
-
-*TIP: We use -140 as the negative implies that the player will go up twords the top of the screen and 140 just feels right!*
+5. Drag the ``||sprites.set dino vy to -140||`` block we created in the last step into the ``||logic.if true then||`` block.
 
 ### ~ tutorialhint
 ```blocks
