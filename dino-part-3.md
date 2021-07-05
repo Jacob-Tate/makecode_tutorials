@@ -12,8 +12,6 @@ TomatoCube Arcade Sprites=github:Jacob-Tate/tomatocube-arcade-sprites#master
 
 **Step 1**
 1. Open the ``||info.Info||`` drawer, drag the  ``||info.set life to 3||`` into the ``||Loops:on start||`` block
-2. Inside the ``||scene.on sprite of kind Player hits wall ||`` ``||variables.RED||`` block,  delete the ``||game.game over ||`` block 
-3. Open the ``||info.Info||`` drawer, drag the  ``||info.change life by -1||`` into the ``||scene.on sprite of kind Player hits wall ||`` ``||variables.RED||`` block
 
 ### ~ tutorialhint
 ![screenshots](https://raw.githubusercontent.com/TomatoCube18/tutorial-hungry-dino-part-3/master/assets/Screenshot_7.png)
