@@ -785,7 +785,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 ** Step 15**
 1. Open the ``||animation.Animation||`` drawer, drag the ``||animation.add frame to anim||`` block into the ``||scene.create_stand_animation||`` block
 2. Change **anim** to **anim_stand_right** 
-3. Click on the grey color ovul, select **Gallery** view. Scroll to find the below image of a standing right dino, select it and hit "OK". 
+3. Click on the grey color oval, select **Gallery** view. Scroll to find the below image of a standing right dino, select it and hit "OK". 
 4. Repeat step 1 - 3, for the other standing right dino.
 
 ### ~ tutorialhint
@@ -844,7 +844,7 @@ function create_stand_animation () {
 ** Step 17**
 1. Open the ``||animation.Animation||`` drawer, drag the ``||animation.add frame to anim||`` block into the ``||scene.create_stand_animation||`` block
 2. Change **anim** to **anim_stand_left** 
-3. Click on the grey color ovul, select **Gallery** view. Scroll to find the first image of a standing left dino, select it and hit "OK". 
+3. Click on the grey color oval, select **Gallery** view. Scroll to find the first image of a standing left dino, select it and hit "OK". 
 4. Repeat step 1 - 3, for the other standing left dino.
 
 ### ~ tutorialhint
@@ -897,7 +897,7 @@ anim_stand_left = animation.createAnimation(ActionKind.standing_left, 100)
 ** Step 18**
 1. Open the ``||animation.Animation||`` drawer, drag the ``||animation.attach animation anim to sprite mySprite||`` block into the ``||scene.create_stand_animation||`` block
 2. Change **mySprite** to **dino** 
-3. Change **anim** to **anim_stand_rightt** 
+3. Change **anim** to **anim_stand_right** 
 4. Repeat step 1 - 3, for **anim_stand_left**
 
 
