@@ -470,10 +470,10 @@ function clear_level(){codes}
 
 ## Step 14
 **Step 14**
-You have successfully created a game with multi-level!
+You have successfully created a game with multiple levels!
 
 **Quiz:** Can you add another level (level 3) to your game?
-(You may refer to the image in the tutorial hint for clue)
+(You may refer to the image in the tutorial hint for a clue)
 
 
 ### ~ tutorialhint
@@ -482,7 +482,7 @@ You have successfully created a game with multi-level!
 
 ## Step 15
 ** Step 15**
-Congratulations! You have completed today's tutorial. 
+Congratulations! You have completed this tutorial. 
 Test out your game. If it does not work, cross check your code with the codes in the tutorial hint.
 
 ### ~ tutorialhint
